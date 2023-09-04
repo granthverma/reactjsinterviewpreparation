@@ -1,16 +1,23 @@
 js
 word vs keywords ✅
 var let const ✅
-
+hoisting ✅
+types in js ✅
+primitive and reference  ✅
+conditionals ✅  if else ,else if ✅
+loops ->  >>>>   for , while ✅
+functions ✅
+object ✅
 
 word vs keywords ✅
+－------------- 
 word have not has meaning in js its called words
 any kind words is word 
 keywords have meaning in js it  called keywords
 
 like exmple for , if , else , var , let  its keywords
 
-
+－------------- －------------- －------------- －------------- －------------- 
 var let const 
 
 variable vs constants ✅
@@ -22,6 +29,7 @@ vari - changeable
 able = ho skta ha  
 
 lab ko pyar hua laby se 
+
 phar shadi bhi ho dono ki 
 but laby ek ex bf mr xyz
 wo aaya zindgi mein aur le kar chal gaya labi ko 
@@ -31,4 +39,305 @@ so us variable zindgi main change ho skta ha
 but jo constants hota ha wo forever ho skta ha koi bhi aaya jaya koi farak nahi padta hai 
 
 
-hosting 
+
+
+
+///
+
+
+code ko store karna ke liya jo use hota 
+any type data you want store its call variables
+
+
+－------------- －------------- －------------- －------------- 
+hosting 🕸️
+
+undefintd  kuch hai but pata nahi 
+not-definted jiska extence ha nahi wo 
+console.log (b) 
+
+not not-definted
+－------------- 
+undefintd 
+
+console.log(a)
+
+var a =10 ;
+
+undefintd
+－------------- 
+var pahle host ho gaya es bolta ha hoisting 
+
+hoisting 
+－------------- 
+- vaiable and functions are  hoisted which means there declaration is moved on the 
+－------------- top of code 
+
+var b ;
+console.log  (b);
+
+b =12 ;
+
+－-------------   💡💡💡💡💡💡💡
+primitive and reference
+－------------- 
+reference () {} []
+－------------- 
+
+
+
+
+primitive ➡️ number 1, 2, 3,4 ,5 ; string name &all value  "";  null empty value ;
+undefintd jo definted ho but pata na ho  declaration ho ; boolean  true and false
+
+
+reference = {};[];()
+－------------- 
+direct copy nahi kar skta 
+
+aisi koi bhi value jisko copy karne par real copy nahi hota ,
+balki  us main value ka  reference pass ho jati hai use hum reference value 
+kahte aur jiska copy karne par real copy ho jaaye wo value  primitive type  value 
+hoti hai 
+
+var a = [12 ,13] ;
+var b = a ;
+
+var b.pop(a)
+
+
+－------------- 
+
+
+－------------- conditionals －------------- 
+
+
+if else , if else else if 
+
+jab bhi bat agar magar par aayegi yaa fir baat 
+aayegi aisa hua to ye karo wo karo 
+
+
+
+if (true) / if (false)
+
+if (11>18) f 
+if (8>4) t
+
+if (apple)
+ 
+
+loops ->  >>>>   for , while 
+－------------- 
+
+
+for ()
+{
+    i = value  , i < up to value  , i ++ ;
+
+    console.log(i) ;
+}
+
+loops basic we say repeat any things 
+
+it value itself aur print value repeat again again its called loops
+
+－------------- 
+while 
+－------------- 
+while (condition){
+
+}
+
+var a= 12;
+while ( a<20){
+ a++;
+};
+
+－------------- 
+functions
+function - code ko naam dena
+
+function ka matlab app kuch code ko likh kar koi naam de sakte ho and baad mein usey use kar  -->
+
+sakte ho with that name as many time
+
+function mainly teen kaam ke liya hota 
+
+1 ) jab aapka code app turant nahi chalna chaahte future mein chalaana chaahte ho
+2) jab aapka code app reuse karna chahte ho
+3) jab aap code chalana chaahte ho har baar diffeent data 
+
+
+
+ function abcd (){
+    console.log ()
+ }
+
+
+ function abcd ();
+
+2.2 
+
+function abcd ();
+
+
+3.3 
+function abcd (){
+    console.log ()
+ }
+
+ 
+
+ function abcd (){
+    console.log ()
+ } 
+
+
+ function statement 
+
+
+ parameter
+ function abcd(a , b , c) {
+
+    console.log(a , b ,c );
+
+ }
+
+ abcd(12, 13, 14);arguments
+
+
+arguments =real value jo hum deta fnc chalaate waqt 
+parameter = variable jinme value store hoti hai arguments waali 
+
+
+
+//arrays - more then store one value then we use arrays 
+
+group of value 
+index start with 0 
+
+var arr =[1, 2, 3,4,5 ];
+
+arr [0]= 1
+arr [1]= 2
+
+
+arr [2]= 3
+arr [3]= 4
+arr [4]= 5
+
+
+var a =12 ;
+right
+
+var a =[12 ,14];
+
+
+push pop shift unshift splice 
+
+
+push add the value 
+var arr =[1, 2, 3,4,5, 6,7]
+arr.push();
+
+
+result var arr =[1, 2, 3,4,5, 6,7,8]
+
+
+pop  less the value 
+
+var arr =[1, 2, 3,4,5, 6,7]
+arr.pop();
+
+result var arr =[1, 2, 3,4,5, 6,]
+
+unshift
+var arr =[1, 2, 3,4,5, 6,7]
+arr.unshift();
+result var arr =[0 ,1, 2, 3,4,5, 6,7]
+
+add value in starting 
+
+
+shift
+var arr =[1,2,3,4,5,6,7]
+arr.shift ()
+
+result var arr =[ , 2, 3,4,5, 6,7]
+
+
+splice 
+
+arr.splice 
+
+var arr =[1,2,3,4,5,6,7]
+arr.splice(2,1)
+
+
+result var arr =[1, 2, ,4,5, 6,]
+
+index 2 ki ek value 
+
+
+
+var arr =[1,2,3,4,5,6,7]
+arr.splice(2,2)
+
+
+result var arr =[1, 2, ,,5, 6,]
+
+index 2 ki 2 value 
+
+
+objects 
+
+
+ek se jayada bande ki baat ki to hua array 
+ek bande ke baare mein saari baat ki to hua object
+
+
+object ---> object hai ek bande ki details ko hold karna 
+
+in a key value pair
+
+
+object are mainly two type 
+
+1 blank obj 
+
+var a = {} ;
+blank object blank object hota 
+
+2) filled obj
+
+var home ={
+    age :23,
+    name :"ghar-pop",
+    email: "email@.com",
+    linkedin : "ghar-pop",
+    size :100 feet
+    type: "3bhk"
+
+    seeanything :function (){}
+
+
+
+}
+
+home.age 
+
+
+props vs method
+
+props are property  
+
+method - object ke andar es property jiski property function
+ho us hum function bola tha ha 
+
+
+updating objects props 
+ghar.name ="dreamhoe";
+
+
+

@@ -1,0 +1,201 @@
+<!-- 
+1 --) var let const ✅
+2 --) the differenc ✅
+3 --) window object ✅ 
+4 --) browser context api ✅
+5 --) stack ✅
+6 --) heap memory ✅
+7 --) execution context ✅
+8 --) lexical environment  ✅
+9 --) how to copy reference values  ✅
+10 --) Truthy vs Falsy value ✅
+11 --) switch case ✅
+12 --) foreach 
+13 --) forin 
+14 --) do-while
+
+
+
+
+1).. var let const 
+
+1).var ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️
+ ..  var old js mein tha
+ ... var function scoped hota hai 
+ ..... var apne parent function mein kahi bhi use ho skta ha 
+ ... var adds itself to the 
+ ....... not good itself add window 
+
+
+
+ 2).let const ➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️➡️
+
+ let const new js mein hai
+ let const braces scoped hai 
+ let const doesn't adds
+
+ 3).window objects --
+
+ alert
+ clearinterval
+ cleartimeout
+ close
+
+ window mana lena <->dena  
+ . window hai ek box of feature give by  browser to use with 
+ . jo js ke pass nahi hota wo window se lekar use karta ha es ha hum window objects 
+ kha tha hai  for exmple  alert, console log and many more
+
+ 
+4.)) browser context api
+ ... it make from three things 
+ .... first things is window 
+ .... second things is stack
+ .... thrid things is heap
+
+....... window ---  window hai ek box of feature give by  browser to use with 
+......stack [---] box kaun kaise chalga ye sara kaam stack  karta hai 
+.... heap [--]  jitne bhi variables ya data hum baanate hai unhe stroe kahi 
+..... to karna padta hai uske liya hota heap memory
+
+1+2+3+4+5
+.. 1+2 = 3
+.. 3+3 = 6
+.. 6+4 = 10
+.. 10+5 = 15
+
+
+ 5 .)) execution context matlab jab bhi hum function  chalaayege fnc
+  apna ek kudka ek imaginary container bana lega jsi mein uski teena
+  cheeje hogi :
+  1) variables 
+  2) functions inside that parents fnc
+  3 ) lexical enviroment of that function 
+  ye jp container hai  imaginary ise hi hum execution context kahte hai 
+
+
+  --- EXECUTION CONTEXT is a container where the function code is executed and its
+  created whenever a function is called , it contains 
+  3 things , variable , variable and lexical environment
+
+
+   |------------|
+   | 1 variable |
+   | 2 variable |----------------- ).EXECUTION CONTEXT
+   | 3 lexical  |
+   | environment|
+   |------------|
+      box or container
+-------------------------------------------------------------------
+
+
+6 .)) lexical enviroment hota hai ek chart jisme ye likha hota
+      hai ke aapka particular function ki cheejo
+      ko access kar sakta hai and kinko nahi
+      matlab ki it holds its scope and scope  chain
+
+      scope chain bolta 
+
+
+
+
+9 .))how to copy reference values
+     Spread syntax (...)
+
+
+The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the 
+properties of an object and adds the key-value pairs
+ to the object being created
+
+
+ var a = [1,2,3,4,5,6,7,8,9];
+ var b = [...a]
+
+ b.pop();
+
+
+
+ now trun objects
+ var obj = {name:"harsh"};
+ var copyobj = {...obj};
+
+
+
+10 .)) 1 - js main kuch bhi likho mainly do
+       prakaar mein se kisi ek prakaar ko belong karti hai 
+
+       2- falsy values ye hai = 0 ,false , undefined, null ,NaN , document .all
+
+       other then this are truthy values 
+
+       if (1) {
+        console.log("hello");
+       }
+
+       else{
+         console.log("hey")
+       }
+
+-------------------------------------------
+11 --)switch case 
+
+
+switch (1) {
+    case 1:
+      break ;
+      case 2 :
+      break ;
+      default
+}
+
+
+
+
+-------------------------
+
+
+12 --) foreach 
+
+for each kabhi bhi by default aapke array mein change nahi karta wo 
+aapko changes krke deta hai array ki temporary copy par jiske wajah 
+se array humeshha same rehta hai 
+
+
+-) foreach loop srf array pe chalta hai mtlab ki jab bhi tumhaare 
+ pass ek array ho , toh use mein kaun aata hai foreach loop
+
+var a = [1,2,23,34,4,23 ,4,4 ,45,54, 3,23];
+
+a.forEach(function(val){
+      console.log (val+2);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
