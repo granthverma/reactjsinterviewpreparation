@@ -10,9 +10,13 @@
 9 --) how to copy reference values  ✅
 10 --) Truthy vs Falsy value ✅
 11 --) switch case ✅
-12 --) foreach 
-13 --) forin 
-14 --) do-while
+12 --) foreach  ✅
+13 --) forin  ✅
+14 --) do-while ✅
+15 --) callback fncs ✅
+16 --) first class fncs ✅
+17 --) how arrays are made behind the scenes ✅
+18 --) why we can make negative indexes arrays in js ✅
 
 
 
@@ -171,31 +175,145 @@ a.forEach(function(val){
 })
 
 
+13 --) forin
+
+objects par loop karne ke liya hota hai forin loop
+
+
+var obj ={
+      name :"studyhard",
+      age :"25"
+      city: "bhopal"
+}
+
+for(var key in obj) {
+      console.log(key, obj[key]);
+}
 
 
 
 
+14 --) do-while ✅ 
+--- jab bhi hum function atleast ek baar toh run karna ho toh hum use karte 
+hai do-while 
+
+systax of do while 
+
+var a=120;
+
+
+do {
+      console.log("hey")
+      a++
+}
+
+while (a < 15)
+
+
+
+15 --) callback fncs ✅ -A callback is a function passed as
+ an argument to another function. This technique allows a function 
+ to call another function.
+ A callback function can run after another function has finished.
+
+
+  jiska naam se pata chalta ha call back ek function (kaam) ke khatam hona 
+  ke baad chalta  ye function run hoga   
+
+  settime out its exmple of this function
+
+
+by harsh sir - jab bhi koi aisa code jo baad me chalta hai app likhoge ,
+ kyuki wo code baad mein chalta hai js ko pata nahi hota ke wo completed 
+ hua ya nahi ,aisa code ke completion par js ko btaya hai ke wo complete hogya aur app use 
+ chala sakte ho , ye bataane ka kaam call back ka hai
+
+
+💻 -------- 🔋 -------- 📲
+f-------- server------ run 
+
+"I will call back later!"
+ 
+
+setTimeout(function(){
+
+
+},2000);
+
+
+
+setTimeout(function(){
+   
+    console.log("workhard")
+
+},2000);
+
+
+aisa  code jo baad me chalta hai use hum ek function dedeta hai ke
+ bhaiya jab complete hojaana to ye function chala dena aur wo function
+ jo hum deta hai wo ek normal  function hi hota aur use kahte hai callback 
+ function
 
 
 
 
+first class fncs ✅
+js main ek concept hai jika matlab hota hai ki app function ko use kar sakte 
+ho as a  value 
+
+
+function abcd (a) {
+      a();
+}
+
+abcd (function(){console.log("hey")})
+
+
+17 --) how arrays are made behind the scenes ✅
+
+
+var arr = [1,2,3,4];
+
+
+arr ={
+      0 = 1
+      1 = 2
+      2 = 3
+      3 = 4
+}
+
+
+typeof 
+
+Array.isArray([])
+Array.isArray({})
+
+
+18 --) why we can make negative indexes arrays in js ✅
+
+
+var a ={
+      name: "harsh",
+      age :24;
+}
+
+delete a.age;
+
+for delete you use delete what you want deleted .want to deleted
 
 
 
+its done github 
+
+git add .
+git commit -m ""
+
+git remote -v
+
+git remote set-url  origin
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+git branch 
 
 
  -->
