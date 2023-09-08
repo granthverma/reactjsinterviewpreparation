@@ -1,7 +1,8 @@
-montserrat'
+ <!-- montserrat
 
 
-<!-- <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt=""> -->
+
+<img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt=""> 
 
 
 TOPTRACER RANGE
@@ -15,8 +16,14 @@ EVENTS
 
 https://sidcupfamilygolf.com/wp-content/uploads/2023/08/SFG-Website-Header-Video-0823.
 
+notes to make any page ✅
+
+video  autoplay  - play to vidoe ✅
+       loop  ----  play repeat ✅
+       muted ----  block sound web not play music ✅
 
 
-video  autoplay  - play to vidoe 
-       loop  ----  play repeat 
-       muted ----  block sound web not play music 
+         -->
+
+
+         
