@@ -22,7 +22,18 @@ video  autoplay  - play to vidoe ✅
        loop  ----  play repeat ✅
        muted ----  block sound web not play music ✅
 
+mousemove -- mouse move 
+dets      -- value that move
+          x value & y value 
+        +   | x   ++
+-           |          y
+-------------------------
+-           |
+           -|x-        y+
 
+
+
+           
          -->
 
 
