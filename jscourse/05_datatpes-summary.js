@@ -79,3 +79,47 @@ const Cal = function () {
 Cal()
 Cal()
 Cal()
+/** Table 20 — typeof Operator Results
+Type of val	Result
+Undefined	"undefined"
+Null	"object"
+Boolean	"boolean"
+Number	"number"
+String	"string"
+Object (native and does not implement [[Call]])	"object"
+Object (native or host and does implement [[Call]])	"function"
+Object (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+ */
+// ***********************************************************
+
+
+// Stack and Heap memory in javascript  and Reference 
+
+// stack (👉🏻 Primitive) copy value  milti ha
+
+
+    //  [--]
+    //  [--]
+    //  [--]
+    //  [--]
+
+
+    let myYoutubename = "granthcodes"
+
+    let anothername = myYoutubename
+    anothername = "himanshu verma"
+
+    console.log(myYoutubename);
+    console.log(anothername);
+// Heap memory ( Heap memory  Reference  ) value reference  mili thi hai 
+   let userOne ={
+    email : "granthcodes@google.com",
+    upi :"user@ybl",
+   }
+
+   let userTwo = userOne
+
+   userTwo.email = "himanshu@google.com"
+
+   console.log(userOne.email);
+   console.log(userTwo.email);
