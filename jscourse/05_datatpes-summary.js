@@ -123,3 +123,5 @@ Object (host and does not implement [[Call]])	Implementation-defined except may 
 
    console.log(userOne.email);
    console.log(userTwo.email);
+
+   // ense copy kiya direct value ko jo bhi change hota direct value main
