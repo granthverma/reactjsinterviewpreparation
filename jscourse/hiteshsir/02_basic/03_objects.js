@@ -71,11 +71,11 @@ const jsmission ={
 
 
 
-const course ={
-    coursename :"kobhi",
-    price :"9898",
-    courseCoach:"himanshu"
-}
+// const course ={
+//     coursename :"kobhi",
+//     price :"9898",
+//     courseCoach:"himanshu"
+// }
 
 // course.courseCoach  not got ways
 
@@ -90,3 +90,37 @@ const navbar = (Coach) => {
 }
 
 navbar (company ="hitesh")
+
+
+
+//  appne kaam dusari par dalna hai api  api value  backend se aati hai  us handle kar hota hai aapko  , pahle xml main aati thi aur aba aati json main  jaon kya hota hai bhai {} --> yr kya bhai ye hai json hai bhai  but ye toh object hai na  , hai bhai ye json hota hai 
+
+
+
+// course ={
+//          "coursename" :"kobhi",
+//        "price" :"9898",
+//         "courseCoach":"himanshu" }
+    
+
+
+// api array
+//  [{}
+
+
+
+// ]
+
+/*part one  main bataya gaya hai object kaise banaya jata hai 
+
+*/
+
+
+// +++++++++++++++++++++ part one 
+
+
+
+
+
+
+

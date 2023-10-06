@@ -64,12 +64,12 @@ but es better hai bhai
 
 
 
-console.log(Array.isArray("himanshu"));  /// asking for array ki aaarya nahi hai ya hai 
+// console.log(Array.isArray("himanshu"));  /// asking for array ki aaarya nahi hai ya hai 
 
-console.log(Array.from("himanshu"));  // convert in  array
+// console.log(Array.from("himanshu"));  // convert in  array
 
 
-console.log(Array.from({name:"himanshu"})); // imp 888888 topic  they asking key :value of array 
+// console.log(Array.from({name:"himanshu"})); // imp 888888 topic  they asking key :value of array 
 
 // key :value 
 
@@ -78,7 +78,7 @@ let num1 = 100
 let num2 =200
 let num3 =300
 
-console.log(Array.of(num1 , num2 , num3));
+// console.log(Array.of(num1 , num2 , num3));   convert any value into array
 
 
 

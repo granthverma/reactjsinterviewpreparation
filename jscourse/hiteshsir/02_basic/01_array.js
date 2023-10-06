@@ -38,8 +38,9 @@
        5 includes ---> check karna ke liya use kiya jata ki wo value hai ya nahi its show boolen value true n false 
        6 indexOf -----> show the index par kya value hai nahi hogi toh -1 show hogi
        7 join   ---->  add all the elements of an array into a string 
-       8 slice -----> totna  copy array ko impect karta hai
-       9 splice  -----> p jodna original array ko impact karta hai 
+       8 slice -----> totna  copy array ko impect karta hai  slice(0,3)  slice pahle value bhi index se hota hai  dusari bhi index se hoti hai es main es hota ki last indes se pahle wali value aati hai aur sabse imp baat ye copy arr main se chanage hota  hai 
+
+       9 splice  -----> p jodna original array ko impact karta hai  splice (0,3 ) splice jis ki name se pata chalta hai jodna es main hum jod sakta koi other value  es main pahle value indedx ki hoti hai  n dusari value wo number hota jitni hum value chaiya like 0 index hai hum 2 value chaiya toh es main index 0 index 1  include hoga 
     */
 
 
