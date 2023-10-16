@@ -97,7 +97,7 @@ const {courseInstructor: instructor} =course
 
 console.log(instructor);
 
-console.log(instructor);
+console.log(instructor);  //  object de-structure es hai bolta hai 
 
 // const navbar = {} => {
 
@@ -112,9 +112,23 @@ console.log(instructor);
 
 // }
 
-// [
-//    {},
-//    {},
-//    {},
+// 
 
-// ]
+
+// ++++++++++++++++++++++ - api -> jab bhi  aapko aapne kaam kaise aur par dala dena us hum api kha tha hai
+// yha key aur value dono string hoti hai 
+//  json mostly for api 
+
+
+// {
+//     "name":"himanshu",     api exmple
+//     "ch" :"kuchbhi"
+// }
+
+
+// [
+//     //    {},
+//     //    {},
+//     //    {},
+    
+//     // ]
