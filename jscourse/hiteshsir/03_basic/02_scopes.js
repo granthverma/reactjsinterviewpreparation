@@ -55,7 +55,7 @@ if (true){
   const username ="honey"
   if (username === "honey"){
     const website ="youtube";
-    console.log(username +website);
+    // console.log(username +website);
   }
 
   // console.log(website);
@@ -64,3 +64,21 @@ if (true){
 }
 
 // console.log(username);
+
+
+//+++++++++++++++++ impp___>>>>>>>
+console.log(addone(5));
+function addone(num){
+  return num+1
+}
+
+
+addTwo(5)
+const addTwo = function (num) {
+  return num +2
+  
+}
+// declear plus hold the value so not result because hositing 
+// addTwo(5)
+
+// jscourse/hiteshsir/03_basic/02_scopes.js
