@@ -98,21 +98,56 @@
 // var jiski tujhe pata hai ki var function scope hota hai  toh dekho bhi lo 
 
 
-const balance =1000 
-if (balance <500) {
-    console.log(`more than 500`);
+// const balance =1000 
+// if (balance <500) {
+//     console.log(`more than 500`);
     
-} else if (balance <500) {
-    console.log(`less than 500`);
+// } else if (balance <500) {
+//     console.log(`less than 500`);
     
-} else if (balance <750) {
-    console.log(` less than 750`);
+// } else if (balance <750) {
+//     console.log(` less than 750`);
     
-}else {
+// }else {
 
-    console.log(`less than 1200`);
+//     console.log(`less than 1200`);
     
-}
+// }
 
 // if (balance > 500) console.log("test"),console.log("test2"); 
 //  es kabhi bhi nahi likhan ha code 
+
+
+const UserloggedIn =true ;
+const upi = false;
+const paymentmorethan50 = true;
+const  specialDiscount = false ;
+
+if (UserloggedIn && upi ) {
+    console.log(`welcome to granthcodes`);
+    
+}  // hona hai chaiya es condation mein and 
+
+else {
+    console.log(`make your payment`);
+}
+
+// now we talk about or 
+
+
+
+if (paymentmorethan50 || specialDiscount) {
+    console.log(`make your payment in 3 months`);
+    
+} else {
+    console.log(`please contact admission department`);
+}
+
+
+
+
+
+
+
+
+
