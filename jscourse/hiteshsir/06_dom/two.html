@@ -16,34 +16,129 @@
 <body class="bg-black">
     
 <!-- how target elements  by id & different way --
-    getElementsById --(``) with name 
-    getElementByClassName (``)with name 
+
+    document. (``)
+    getElementsById --(``) with id  name 
+    getElementByClassName (``)with class name 
     getElementByName(``)with name 
-    getElementByTagName(``)with name 
+    getElementByTagName(``)with tag  name 
+
+
+    . laga kar kafi methods access kar saket hai 
 
     id  -- id
     class -- className 
 
-    .getAttribute()  --
+    .getAttribute()  -- chaiya aapko  konsa 
     document.getElementById(`title`).getAttribute(`id`)
      
 
-    setAttribute()  -- set the value --
+    setAttribute()  -- set the value -- set the value  override karta hai  (class - test heding)
 
     document.getElementById(`title`).setAttribute(`class` ,`test` ,`heading`)
+        title.style.backgroundColor= 'green'
+'green'
+title.style.backgroundColor= `red`
+'red'
+title.style.padding ="15px"
+'15px'
+title.style.margin="20px"
+'20px'
 
     how  to store value 
 
     const name =  document.getElementById(`title`)
 
 
+how get value 
+
+  title.textContent ->
+  title.innerHTML---- ->sab kuch aayaga include html part bhi
+
+  title.innerText -> only text show hoga 
+  title.textContent-> kuch hide bhi hoga toh bhi show hoga 
+
+ know about Selector
+ querySelector-- > jo bhi selected karna hai wo le sakat hai 
+
+ querySelectorAll --- >
+
+   document.querySelector(`input[type="password"]`)
+
+ document.querySelector(`.heading`) by class
+
+ document.querySelector(`h2`) es mein jo phale hoga wo aayaga 
+ document.querySelector(`#title`)  by tag jo bhi aayaga 
+
+ const tempLiLIst =document.querySelectorAll(`li`)
+Node list array jaise hota but array nahi hota 
+Array kafi saari chazze same hoti hai 
+
+
+tempLiLIst[0].style.color='red'
+
+
+Direct wale bataan hota konsa karna hai 
+
+myH1[0].style.color =`green`
+
+
+Templist foreach () =>{}
+
+Nodelist use karo try karo foreach loop use karo 
+
+Nahi toh nodelist ko phale array convert karo then map use karo 
+
+
+
+
     style  ----!! 
     title.style.backgroundColor = 'green'
+
+    add to content
+    textc  
+
+
+
+
+    how to convert HTMLCollection
+    (4) into array
+    .from (temClass)
+
+    Array.from(tempClassList)
+
+    A capital
 -->
     <div >
-        <h1 id="title" class="heading">Dom learning by hitesh sir</h1>
+        <h1 id="title" class="heading">Dom learning by hitesh sir
+            <span style="display: none;">text text</span>
+        </h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quo impedit odit quos nulla harum, dolorem repellendus quidem explicabo sint nesciunt delectus hic provident quibusdam molestiae illum ratione placeat qui.</p>
+        <h2>
+          Lorem ipsum dolor sit. 1 
+        </h2>
+        <h2>
+            Lorem ipsum dolor sit.  2 
+        </h2>
+        <h2>
+            Lorem ipsum dolor sit. 3
+        </h2>
+        <h2>
+            Lorem ipsum dolor sit. 4
+
+        </h2>
+ 
+      
+   <input type="password" name="" id="">
+   <input type="button" value="">
+        <p>Lorem ipsum dolor sit impedit odit q.</p>
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item"> four</li>
+        </ul>
     </div>
 </body>
 </html>
