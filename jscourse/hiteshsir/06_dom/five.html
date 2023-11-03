@@ -11,39 +11,49 @@
         <li>Javascript</li>
     </ul>
     <script>
+
+        function addlaok(langName) {
+         const li = document.createElement('li')
+         li.innerHTML='${lang}'
+            
+        }
         function addLanguage(langName) {
             const li =document.createElement('li');
-            li.innerHTML ='${langName}'
+            li.innerHTML ='${langName}' // in value add inner value
             document.querySelector('.language').appendChild(li)
             
         }
+        // defination
 
         addLanguage("python")
-        addLanguage("typescript")
+        addLanguage("typescript")  // called the function 
 
         function addOptiLanguage(langName) {
             const li = document.createElement(`li`);
             li.appendChild(document.createTextNode(langName))
+           
+            // const addText =document.createTextNode(langName)
+            // li.appendChild()
             document.querySelector('.language').appendChild(li)
             
-        }
-        addOptiLanguage('golang')
+        } // add opti way 
+        addOptiLanguage('golang') 
 
         // edit
-
+    // phale selected 
         const secondLang =document.querySelector("li:nth-child(2)")
         console.log(secondLang);
 
         secondLang.innerHTML="majo"
 
         const newli =document.createElement('li')
-        newli.textContent ="Majo"
+        newli.textContent ="Majooooo"
 
-        secondLang.replaceWith(newli)
-
+        secondLang.replaceWith(newli)  
+// replacewith  replaced karne ke liya use hota hai 
         const firstLang =document.querySelector("li:first-child")
         firstLang.outerHTML = '<li>TypeScript </li>'
-
+//  change outer html
 
         // remove
 

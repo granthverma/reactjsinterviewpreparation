@@ -1,0 +1,45 @@
+
+html{
+    margin: 0;
+}
+span{
+    display: block;
+}
+
+.canvas{
+    text-align: center;
+    margin: auto 0;
+    display: inline-block;
+    width: 80%;
+}
+.button {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    margin:2px ;
+    border-radius: 50%;
+}
+
+#grey{
+    background: gray;
+}
+
+#purple{
+    background: purple;
+}
+
+#blue{
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#pink{
+    background: pink;
+}
+
+
+

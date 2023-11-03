@@ -13,13 +13,13 @@
     console.log(div);
    div.className ="main"
  div.id = Math.round(Math.random()*10 +1)
-     div.setAttribute("title" ,"generated title")
+     div.setAttribute("title" ,"generated title") // perfer value
     div.style.backgroundColor ="green"
-     div.style.padding ="12px"
-    div.innerText ="chai aur code "
+     div.style.padding ="12px" // in memory phase 
+    // div.innerText ="chai aur code " // override lekar aayga then set karga
     const addText =document.createTextNode ("chai aur code ye raat")
-   div.appendChild(addText)
+   div.appendChild(addText) //text ko append kiya hai 
 
-     document.body.appendChild(div)
+     document.body.appendChild(div) // document par attach
 </script>
 </html>
