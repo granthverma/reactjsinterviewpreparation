@@ -25,7 +25,7 @@
 
 ## parts of oop
 
-Object literal (wo meaning hai)
+Object literal (wo meaning hai ha yhi hai)
 
 
 - Constructor function

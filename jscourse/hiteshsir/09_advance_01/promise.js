@@ -6,6 +6,19 @@
 
 //  object ke trah mile tha es6 mein tha
 
+reslove reject par story hai promise ki  
+reslove ho then reject ho toh catch 
+then , then catch 
+phale then reposen ko handal karga 
+dusara then data ko karga 
+thrid  error ko karga 
+
+sab mein then ek common hai wo ( ()=> {
+
+})
+
+ye syntax common hai toh es par dhayan dena 
+
 promisre libraries like Q or BuleBird now that we have Es6 promise
  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/promises.png
  */
