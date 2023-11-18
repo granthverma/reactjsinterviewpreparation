@@ -40,4 +40,4 @@ book.logMe()
 
 
 
-// 
+// jscourse/hiteshsir/10_classes_and_oop/staticprop.js

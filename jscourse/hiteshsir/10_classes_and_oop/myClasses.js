@@ -55,3 +55,6 @@ const tea = new User("tea" ,"tea@gmail.com" ,"123")
 
 console.log(tea.encryptPassword());
 console.log(tea.changeUsername());
+
+
+// method 

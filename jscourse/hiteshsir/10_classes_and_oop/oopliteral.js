@@ -50,3 +50,10 @@ const userTwo = new User("himanshu" ,11 , false )
 
 console.log(userOne.constructor);
 // console.log(userTwo);
+
+/**
+ * this current context ki baat karta hai 
+ * new Constructor hai jo copy change karta hai jab hum 2-3 users data chaiya toh hum  Constructor use karke  le sakte nahi toh data override ho jata hai 
+ * 
+ * new {} empty objects crate karta hai ""
+ */
