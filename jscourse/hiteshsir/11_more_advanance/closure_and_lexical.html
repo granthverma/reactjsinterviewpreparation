@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> closure and lexical </title>
+</head>
+<body>
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+</body>
+
+
+<script>
+    function outer () {
+        let username ="granth"
+        //  console.log("OUTER" , secret);
+
+        function inner() {
+             let secret ="my123"
+            console.log("inner" , username);
+
+            
+        }
+
+        function innerTwo() {
+            console.log("innerTwo" ,username);
+
+            console.log(secret);
+            
+        }
+        inner()
+        innerTwo()
+        
+    }
+
+    outer()
+    console.log("TOO OUTER", username);
+</script>
+
+
+
+
+<script>
+    // document.getElementById("orange").onclick = function () {
+    //     document.body.style.backgroundColor ='orange'
+        
+    // }
+
+    // document.getElementById("green").onclick =function(){
+    //     document.body.style.backgroundColor ='green'
+    // }
+
+
+    function clickHandler(color) {
+        //  document.body.style.backgroundColor = `${color}`
+
+        return function () {
+             document.body.style.backgroundColor = `${color}`
+            
+        }
+        
+    }
+
+
+    document.getElementById(`orange`).onclick =clickHandler("orange")
+
+    document.getElementById(`green`).onclick =clickHandler("green")
+</script>
+</html>
+
+
+<!-- 
+    lexical environment 
+
+    lexical environment is a place where variables and functions live or physically present during the program execution
+
+    father se child kuch bhi le sakta hai but child ka father kuch nahi le sakat hai
+    bhai se bhai kuch nahi le sakat hai 
+
+    { papa
+        {}  - child    bhai
+        {}  - 2n child  bhai
+    }
+its called   lexical enviroment 
+
+
+closure
+
+closure -- A closure is a function having access 
+           to the parent scope, even after the
+
+
+
+A closure is the combination of a function and the lexical environment within which that function was declared.
+
+
+A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables — a scope chain.
+
+
+The closure has three scope chains:
+
+it has access to its own scope — variables defined between its curly brackets
+it has access to the outer function’s variables
+it has access to the global variables
+
+
+closure in javascript -- 
+ a clossure  is the combination of a function bundled together (enclosed )
+
+
+ aam bhasha mein - 
+
+  clouser ek feature hau java script ka 
+  jo ki function bundle mein jwith referen lexical envieonment 
+  inner fn  oter  fn ko access kar pata hai
+ -->
