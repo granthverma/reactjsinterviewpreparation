@@ -35,6 +35,10 @@ console.log(undefined == 0);
 console.log(undefined <0);
 
 
+// false
+// false          
+// false
+
 
 // the reason is that an equality check  == and comparisons ><>=
 // <= work differently
