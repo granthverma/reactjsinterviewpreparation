@@ -15,6 +15,11 @@ let state;  //👉🏻  undefinted value
 let temp = 0;   // 👉🏻 its null value  or standalone value
 //symbol   👉🏻  unique value 
 
+const sym = Symbol("foo");
+typeof sym; // "symbol"
+const symObj = Object(sym);
+typeof symObj; // "object"
+
 
 // objests talk about one person all quality
 
