@@ -72,7 +72,8 @@
    
 
    const tukada =new String ('chalo karo')
-//    console.log(tukada.slice(0 ,2));
+    // console.log(tukada.slice(0 ,2));
+// ch  2 value 0,1
 
   // c -0 h -1 a -2 l- 3 end not included JavaScript counts positions from zero.
  
