@@ -4,6 +4,12 @@
 // console.log(2==1);
 // console.log(2 !=1);
 
+// true
+//  true
+// false
+//  false
+//  true
+
 // datatype must some for good code pratice 
 // jscourse/04_comparision.js 
 // console.log("2"> 1);
