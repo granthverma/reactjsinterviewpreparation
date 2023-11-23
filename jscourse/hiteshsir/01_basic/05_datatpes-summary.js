@@ -111,6 +111,9 @@ Object (host and does not implement [[Call]])	Implementation-defined except may 
 
     console.log(myYoutubename);
     console.log(anothername);
+
+// granthcodes  its not chanage directly value 
+//  himanshu verma its give refencene value 
 // Heap memory ( Heap memory  Reference  ) value reference  mili thi hai 
    let userOne ={
     email : "granthcodes@google.com",
@@ -123,5 +126,9 @@ Object (host and does not implement [[Call]])	Implementation-defined except may 
 
    console.log(userOne.email);
    console.log(userTwo.email);
+
+
+// himanshu@google.com  its change directly values 
+// himanshu@google.com
 
    // ense copy kiya direct value ko jo bhi change hota direct value main .
